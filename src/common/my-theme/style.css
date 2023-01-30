@@ -1,0 +1,31 @@
+.use-material-design-scrollbar::-webkit-scrollbar,
+.use-material-design-scrollbar *::-webkit-scrollbar {
+	width: 4px;
+	height: 4px;
+	background: transparent;
+}
+.use-material-design-scrollbar::-webkit-scrollbar-corner,
+.use-material-design-scrollbar *::-webkit-scrollbar-corner {
+	width: 0;
+	height: 0;
+}
+.use-material-design-scrollbar::-webkit-scrollbar-track,
+.use-material-design-scrollbar *::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+.use-material-design-scrollbar-light::-webkit-scrollbar-thumb,
+.use-material-design-scrollbar-light *::-webkit-scrollbar-thumb {
+	background: rgba(0, 0, 0, 0.3);
+}
+.use-material-design-scrollbar-dark::-webkit-scrollbar-thumb,
+.use-material-design-scrollbar-dark *::-webkit-scrollbar-thumb {
+	background: rgba(255, 255, 255, 0.3);
+}
+
+.use-material-design-scrollbar-light *::selection {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.use-material-design-scrollbar-dark *::selection {
+    background-color: rgba(255, 255, 255, 0.1);
+}

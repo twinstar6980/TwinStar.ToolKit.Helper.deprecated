@@ -1,0 +1,33 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100vw;
+	height: 100vh;
+	height: -moz-available;
+	height: -webkit-fill-available;
+	height: fill-available;
+	margin: 0;
+	overflow: hidden;
+	/* user-select: none; */
+}
+
+body {
+	/* background-image: url("C:\\Windows\\Web\\Wallpaper\\Windows\\img19.jpg"); */
+	background-size: cover;
+	background-position: center;
+}
+
+.acrylic {
+	backdrop-filter: blur(30px);
+}
+
+.acrylic-c.MuiPaper-root {
+	backdrop-filter: blur(30px);
+}
+
+.acrylic-c.MuiDialog-root>.MuiDialog-container>.MuiDialog-paper {
+	backdrop-filter: blur(30px);
+}
